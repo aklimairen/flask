@@ -12,20 +12,20 @@ Werkzeug(toolkit) implements:
 jinja2:
 - A popular template engine for Python
 - Allows to pass Python variables into HTML templates
-<h1>Hello {{ username }}</h1>
+`<h1>Hello {{ username }}</h1>`
 
 # Why is Flask a good web framework choice?
 - it is very pythonic as like as Django
 - it is easy to get start
 - it’s very explicit, which increases readability 
 
-~from flask import Flask
-app = Flask(__name__)
+`from flask import Flask`
 
-@app.route('/')
-def hello_world():
-    return 'Hello World!'
+`app = Flask(__name__)`
 
-if __name__ == '__main__':
+    @app.route('/')
+        def hello_world():
+               return 'Hello World!
+       
+    if __name__ == '__main__':
     app.run()
-~
