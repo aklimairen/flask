@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/aklima/projects/flask_python/flask/venv"
+set -gx VIRTUAL_ENV "/Users/aklima/PycharmProjects/python-git-project/flask/flask/venv"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
